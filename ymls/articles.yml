@@ -1,0 +1,13 @@
+---
+Title: Artículos
+Subtitle: Bueno aquí puedes ver algunas de las cosas que he escrito y así
+Sections:
+  - Title: Sobre ningún tema
+    Subtitle: Tópicos variados, sin un tema en particular.
+    Icon: null
+    Class: bd-theme-start is-start
+    Href: /articulos/sobre-ningun-tema
+    Articulos:
+      - Title: ¡Saludos! 
+        Subtitle: Un ejemplo de articulo
+        Href: /saludos

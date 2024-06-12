@@ -1,0 +1,41 @@
+---
+Class: bd-header
+Logoitem:
+  Class: logo-item
+  Href: /
+  SVGPath: /images/dragon.svg
+Mainbar:
+  Class: bd-nav
+  Items:
+    - Name: inicio
+      Class: bd-theme-customize is-customize
+      Href: /
+      Icon: null
+      ShortName: inicio
+      Title: Pagina Inicial
+    - Name: articulos
+      Class: bd-theme-jupiter is-jupiter
+      Href: /articulos
+      Icon: null
+      ShortName: posts
+      Title: Revisa algunos de mis artículos
+    - Name: miscelánea
+      Class: bd-theme-code is-code 
+      Href: /miscelanea
+      Icon: null
+      ShortName: extras
+      Title: Andere Dinge
+  SVGs:
+    - Name: Github
+      Class: is-github is-icon
+      Href: https://github.com/Charl-pena
+      SVGPath: /images/github.svg
+      Title: Mi perfil de Github
+    - Name: Linkedin
+      Class: is-relative is-twitter is-icon
+      Href: https://www.linkedin.com/in/charl-pe%C3%B1a/
+      SVGPath: /images/linkedin.svg
+      Title: Mi perfil de Linkedin
+ThemeIcons:
+  - Icon: fa-sun
+  - Icon: fa-moon

@@ -1,13 +1,18 @@
 ---
+!data
 Title: Artículos
 Subtitle: Bueno aquí puedes ver algunas de las cosas que he escrito y así
 Sections:
-  - Title: Sobre ningún tema
+  - !section
+    Title: Sobre ningún tema
     Subtitle: Tópicos variados, sin un tema en particular.
-    Icon: null
     Class: bd-theme-start is-start
     Href: /articulos/sobre-ningun-tema
+    Icon: null
     Articulos:
-      - Title: ¡Saludos! 
+      - !article
+        Title: ¡Saludos! 
         Subtitle: Un ejemplo de articulo
         Href: /saludos
+        Icon: null
+        ContentPath: null
